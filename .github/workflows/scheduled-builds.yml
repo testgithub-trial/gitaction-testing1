@@ -12,7 +12,7 @@ jobs:
       - name: List files in the repository
         run: |
            ls ${{ github.workspace }}
-           . indu.sh
+           . sudhar.sh
       - name: Set current date as env variable
         run: echo "NOW::$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV
       - name: Echo current date
